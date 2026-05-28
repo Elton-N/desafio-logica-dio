@@ -2,7 +2,7 @@
 
 Este é um projeto prático desenvolvido para o desafio de lógica de programação da **Digital Innovation One (DIO)**. O objetivo principal é fixar os conceitos de variáveis, operadores, estruturas condicionais e de controle de fluxo em JavaScript.
 
-## 📝 Objetivo do Desafio
+##  Objetivo do Desafio
 
 Criar um programa que armazene o nome e a quantidade de experiência (XP) de um herói e, em seguida, utilize uma estrutura de decisão (`if`, `else if`) para determinar e apresentar a classificação do nível do herói com base nos seguintes intervalos:
 
@@ -15,7 +15,7 @@ Criar um programa que armazene o nome e a quantidade de experiência (XP) de um 
 *   **Imortal:** XP entre 9.001 e 10.000
 *   **Radiante:** XP maior ou igual a 10.001
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 *   **JavaScript (ES6+)**: Linguagem principal utilizada para implementar a lógica de programação.
 *   **Node.js**: Ambiente de execução para rodar o código JavaScript diretamente no terminal.
