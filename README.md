@@ -21,7 +21,7 @@ Criar um programa que armazene o nome e a quantidade de experiência (XP) de um 
 *   **Node.js**: Ambiente de execução para rodar o código JavaScript diretamente no terminal.
 *   **Git & GitHub**: Ferramentas utilizadas para o controle de versão e hospedagem do código.
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 Para rodar este projeto localmente na sua máquina, você precisará ter o [Node.js](https://nodejs.org/) instalado.
 
