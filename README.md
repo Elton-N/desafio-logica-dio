@@ -55,3 +55,27 @@ git push origin main
 1. **Clone o repositório:**
 ```bash
    git clone [https://github.com/Elton-N/desafio-classificador-nivel-heroi-dio.git](https://github.com/Elton-N/desafio-classificador-nivel-heroi-dio.git)
+
+
+
+
+---
+
+## 🎮 Desafio 2: Calculadora de Partidas Rankeadas
+
+O segundo desafio do Bootcamp da DIO teve como objetivo praticar o uso de **Funções**, **Operadores** e **Estruturas de Decisão**.
+
+### 🧠 O que foi desenvolvido:
+Uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, calcula o saldo de partidas rankeadas e define o nível do herói com base nas regras do desafio:
+
+* Vitórias menores que 10 = **Ferro**
+* Vitórias entre 11 e 20 = **Bronze**
+* Vitórias entre 21 e 50 = **Prata**
+* Vitórias entre 51 e 80 = **Ouro**
+* Vitórias entre 81 e 90 = **Diamante**
+* Vitórias entre 91 e 100 = **Lendário**
+* Vitórias maiores ou iguais a 101 = **Imortal**
+
+### 💻 Tecnologias Utilizadas:
+* **JavaScript** (Lógica de programação e escopo de funções)
+* **Node.js** (Ambiente de execução)
