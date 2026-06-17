@@ -10,3 +10,10 @@ console.log("\n=== EXECUTANDO DESAFIO 2 ===");
 
 // Importa e executa todo o código contido no arquivo do Desafio 2
 require("./desafio_projeto_dio_II.js");
+
+// Exibe uma mensagem no terminal indicando o início do terceiro desafio
+// O "\n" no começo serve para pular uma linha e separar visualmente os resultados
+console.log("\n=== EXECUTANDO DESAFIO 3 ===");
+
+// Importa e executa todo o código contido no arquivo do Desafio 3
+require("./desafio_projeto_dio_III.js");
