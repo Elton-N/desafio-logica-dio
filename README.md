@@ -1,14 +1,11 @@
-# 🏆 Desafios de Lógica de Programação - DIO
+# Desafio 1: Classificador de Nível de Herói - DIO 
 
-Este repositório centraliza os projetos práticos desenvolvidos para os desafios de lógica de programação da Digital Innovation One (DIO). O objetivo principal é fixar conceitos fundamentais de JavaScript e arquitetura de software.
+Este é um projeto prático desenvolvido para o desafio de lógica de programação da **Digital Innovation One (DIO)**. O objetivo principal é fixar os conceitos de variáveis, operadores, estruturas condicionais e de controle de fluxo em JavaScript.
 
----
+## Objetivo do Desafio
 
-## 🎮 Desafio 1: Classificador de Nível de Herói
+Criar um programa que armazene o nome e a quantidade de experiência (XP) de um herói e, em seguida, utilize uma estrutura de decisão (`if`, `else if`) para determinar e apresentar a classificação do nível do herói com base nos seguintes intervalos:
 
-O objetivo principal foi criar um programa que armazena o nome e a quantidade de experiência (XP) de um herói e utiliza uma estrutura de decisão para determinar sua classificação.
-
-### 🧠 Regras de Negócio (Intervalos de XP):
 * **Ferro:** XP menor que 1.000
 * **Bronze:** XP entre 1.001 e 2.000
 * **Prata:** XP entre 2.001 e 5.000
@@ -18,40 +15,47 @@ O objetivo principal foi criar um programa que armazena o nome e a quantidade de
 * **Imortal:** XP entre 9.001 e 10.000
 * **Radiante:** XP maior ou igual a 10.001
 
-### 🛠️ Aprendizados e Melhorias Aplicadas:
-* **Prevenção de Brechas Lógicas:** Utilização correta dos operadores `>=` e `<=` para garantir que nenhum valor de XP caísse em um "limbo" entre os intervalos.
-* **Estrutura Limpa:** Uso de uma variável dedicada para o nível, evitando repetições desnecessárias de `console.log`.
-* **Código Documentado:** Inclusão de comentários detalhados explicando o papel de cada bloco no fluxo da aplicação.
+## Tecnologias Utilizadas
 
----
+* **JavaScript (ES6+)**: Linguagem principal utilizada para implementar a lógica de programação.
+* **Node.js**: Ambiente de execução para rodar o código JavaScript diretamente no terminal.
+* **Git & GitHub**: Ferramentas utilizadas para o controle de versão e hospedagem do código.
 
-## ⚔️ Desafio 2: Calculadora de Partidas Rankeadas
+## Como Executar o Projeto
 
-O segundo desafio teve como objetivo praticar o uso avançado de **Funções**, **Operadores** e **Escopo de Variáveis** no JavaScript.
+Para rodar este projeto localmente na sua máquina, você precisará ter o [Node.js](https://nodejs.org/) instalado.
 
-### 🧠 O que foi desenvolvido:
-Uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, calcula o saldo de partidas rankeadas e define o nível do herói com base nas regras:
+Navegue até a pasta do projeto e execute o arquivo principal usando o terminal:
 
-* Vitórias menores que 10 = **Ferro**
-* Vitórias entre 11 e 20 = **Bronze**
-* Vitórias entre 21 e 50 = **Prata**
-* Vitórias entre 51 e 80 = **Ouro**
-* Vitórias entre 81 e 90 = **Diamante**
-* Vitórias entre 91 e 100 = **Lendário**
-* Vitórias maiores ou iguais a 101 = **Imortal**
+``bash
+cd desafio-classificador-nivel-heroi-dio
+node src/index.js
 
----
+# Desafio 2: Calculadora de Partidas Rankeadas - DIO
 
-## 💻 Tecnologias Utilizadas (No Projeto Geral)
+Este é um projeto prático desenvolvido para o desafio de lógica de programação da **Digital Innovation One (DIO)**. O objetivo principal é fixar os conceitos de funções, operadores, estruturas condicionais e de controle de fluxo em JavaScript.
 
-* **JavaScript (ES6+):** Linguagem principal utilizada para implementar a lógica.
-* **Node.js:** Ambiente de execução para rodar o código diretamente no terminal.
-* **Git & GitHub:** Ferramentas para controle de versão e hospedagem do código.
+## Objetivo do Desafio
 
-## 🚀 Como Executar o Projeto Localmente
+Criar uma função que receba como parâmetro a quantidade de vitórias e derrotas de um jogador, calcule o saldo de partidas rankeadas e, em seguida, utilize uma estrutura de decisão para determinar e apresentar a classificação do nível do herói com base nos seguintes intervalos:
 
-Para rodar este projeto na sua máquina, você precisará ter o Node.js instalado.
+* **Ferro:** Vitórias menores que 10
+* **Bronze:** Vitórias entre 11 e 20
+* **Prata:** Vitórias entre 21 e 50
+* **Ouro:** Vitórias entre 51 e 80
+* **Diamante:** Vitórias entre 81 e 90
+* **Lendário:** Vitórias entre 91 e 100
+* **Imortal:** Vitórias maiores ou iguais a 101
 
-1. Navegue até a pasta do projeto:
-   ```bash
-   cd desafio-classificador-nivel-heroi-dio
+## Tecnologias Utilizadas
+
+* **JavaScript (ES6+)**: Uso de funções com parâmetros, retorno de valores e escopo de variáveis.
+* **Node.js**: Ambiente de execução para rodar o código e validar a lógica diretamente no terminal.
+* **Git & GitHub**: Ferramentas utilizadas para o controle de versão e atualização do repositório.
+
+## Como Executar o Projeto
+
+Certifique-se de que está na pasta raiz do projeto no seu terminal e execute o arquivo do segundo desafio:
+
+``bash
+node src/desafio_projeto_dio_II.js
