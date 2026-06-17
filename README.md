@@ -59,3 +59,28 @@ Certifique-se de que está na pasta raiz do projeto no seu terminal e execute o 
 
 ``bash
 node src/desafio_projeto_dio_II.js
+
+
+
+## Desafio 3: Escrevendo as Classes de um Jogo - DIO
+
+Este é um projeto prático desenvolvido para o desafio de lógica de programação da Digital Innovation One (DIO). O objetivo principal é fixar os conceitos de programação orientada a objetos (POO), utilizando classes, métodos, propriedades e instanciamento de objetos em JavaScript.
+
+### Objetivo do Desafio
+
+Criar uma classe genérica que represente um herói de uma aventura, contendo as propriedades fundamentais como nome, idade e tipo (ex: guerreiro, mago, monge, ninja). A classe deve possuir um método chamado `atacar`, que utiliza estruturas de decisão para determinar e apresentar a descrição do ataque correto de acordo com o tipo escolhido:
+
+* **Mago**: No ataque deve exibir que usou **magia**
+* **Guerreiro**: No ataque deve exibir que usou **espada**
+* **Monge**: No ataque deve exibir que usou **artes marciais**
+* **Ninja**: No ataque deve exibir que usou **shuriken**
+
+Ao final, o método deve exibir a mensagem formatada no terminal: `"o {tipo} atacou usando {ataque}"`.
+
+### Tecnologias Utilizadas
+
+* **JavaScript (ES6+)**: Uso de classes (`class`), construtores (`constructor`), métodos, objetos instanciados e mapeamento dinâmico (dicionários).
+* **Node.js**: Ambiente de execução para rodar o código e validar a lógica das classes diretamente no terminal.
+* **Git & GitHub**: Ferramentas utilizadas para o controle de versão e atualização do repositório.
+
+### Como Executar o Projeto
