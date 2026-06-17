@@ -31,6 +31,7 @@ Navegue até a pasta do projeto e execute o arquivo principal usando o terminal:
 cd desafio-classificador-nivel-heroi-dio
 node src/index.js
 
+
 # Desafio 2: Calculadora de Partidas Rankeadas - DIO
 
 Este é um projeto prático desenvolvido para o desafio de lógica de programação da **Digital Innovation One (DIO)**. O objetivo principal é fixar os conceitos de funções, operadores, estruturas condicionais e de controle de fluxo em JavaScript.
@@ -62,7 +63,7 @@ node src/desafio_projeto_dio_II.js
 
 
 
-## Desafio 3: Escrevendo as Classes de um Jogo - DIO
+# Desafio 3: Escrevendo as Classes de um Jogo - DIO
 
 Este é um projeto prático desenvolvido para o desafio de lógica de programação da Digital Innovation One (DIO). O objetivo principal é fixar os conceitos de programação orientada a objetos (POO), utilizando classes, métodos, propriedades e instanciamento de objetos em JavaScript.
 
@@ -84,3 +85,10 @@ Ao final, o método deve exibir a mensagem formatada no terminal: `"o {tipo} ata
 * **Git & GitHub**: Ferramentas utilizadas para o controle de versão e atualização do repositório.
 
 ### Como Executar o Projeto
+## Como Executar o Projeto
+
+Para rodar e testar o código das classes do jogo na sua máquina, siga os passos abaixo:
+
+1. **Clone o repositório** para o seu computador (ou baixe os arquivos):
+   ```bash
+   git clone [https://github.com/Elton-N/desafio-logica-dio.git](https://github.com/Elton-N/desafio-logica-dio.git)
